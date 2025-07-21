@@ -1,0 +1,60 @@
+.button1 {
+  background-color: #242535;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.button2 {
+  background-color: #242535;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.button1:hover, .button2:hover {
+  opacity: 0.8;
+}
+
+/* Dark mode background */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+body{
+    color: white;
+}
+body.dark-mode .nav{
+    background-color: #121212;
+}
+
+/* Custom link style */
+.Link {
+  text-decoration: none;
+  color: aqua;
+  font-size: 20px;
+}
+
+/* Store title text */
+.store-title {
+  display: inline;
+  margin-right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Cart icon */
+#cart1 {
+  font-size: 22px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+body{
+    background-color: #181A2A;
+}

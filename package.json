@@ -1,0 +1,31 @@
+{
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently -c \"green,blue\" -n \"SERVER,CLIENT\" \"npm run server\" \"npm run client\"",
+    "server": "cross-env NODE_ENV=development nodemon server/index.js",
+    "client": "npm run dev --prefix Client",
+    "build": "npm install && npm install --prefix Client && npm run build --prefix Client",
+    "start": "cross-env NODE_ENV=production node server/index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.13.1",
+    "react-router-dom": "^7.5.1",
+    "zustand": "^5.0.5"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "cross-env": "^7.0.3",
+    "cross-spawn": "^7.0.6",
+    "nodemon": "^3.1.10"
+  }
+}

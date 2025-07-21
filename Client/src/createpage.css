@@ -1,0 +1,66 @@
+.p-4{
+    background-color: #242535;
+}
+.form-control{
+    background-color:#181A2A;
+    border: none;
+    color: white;
+    text-align: center;
+}
+.form-control:focus {
+    background-color: #181A2A;
+    color: white;
+}
+.form-control::placeholder{
+    color: white;
+}
+.submit{
+    background-color: lightskyblue;
+    color: black;
+    border: none;
+    width: 1068px;
+}
+.submit:hover{
+    background-color: lightskyblue;
+    color: black;
+}
+.submit:active{
+    background-color:  #181A2A !important;
+}
+.h1{
+    text-align: center;
+    color: aqua;
+}
+.mb-4{
+    margin-right: 95px;
+}
+.product-card-img{
+    border-radius: 18px;
+    width: 260px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.Card{
+    margin-left: 30px;
+    width: 280px;
+}
+.pen{
+    background-color: lightskyblue;
+    border: none;
+}
+.pen:hover{
+    background-color: aqua;
+}
+.pen:active{
+    background-color: lightskyblue !important;
+}
+.del{
+    background-color: palevioletred;
+    border: none;
+}
+.pen1{
+    padding-bottom: 5px;
+}
+.del1{
+    padding-bottom: 5px;
+}
